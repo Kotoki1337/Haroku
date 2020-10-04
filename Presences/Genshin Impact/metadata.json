@@ -1,0 +1,13 @@
+{
+    "normal": "True",
+    "process": "GenshinImpact.exe",
+    "presence": {
+        "clientId": "762211166407229460",
+        "state": "Exploring Teyvat continent",
+        "details": null,
+        "large_image": "logo",
+        "large_text": null,
+        "small_image": null,
+        "small_text": null
+    }
+}

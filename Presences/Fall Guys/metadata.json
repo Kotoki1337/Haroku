@@ -1,0 +1,13 @@
+{
+    "normal": "True",
+    "process": "FallGuys_client_game.exe",
+    "presence": {
+        "clientId": "762272839583268884",
+        "state": "Main Menu",
+        "details": null,
+        "large_image": "logo",
+        "large_text": null,
+        "small_image": null,
+        "small_text": null
+    }
+}
