@@ -1,8 +1,9 @@
+from multiprocessing import freeze_support, Process
+
 import wx
 import wx.adv
 import os
 import time
-import multiprocessing
 
 from Models.getMetadata import getMetadata, getData
 from Models.getWindows import checkExsit
@@ -76,7 +77,8 @@ def Main():
 
 
 if __name__ == "__main__":
-    mp = multiprocessing.Process (target = Main)
+    freeze_support()
+    mp = Process(target = Main)
     mp.start ()
     app = MyApp()
     app.MainLoop()
